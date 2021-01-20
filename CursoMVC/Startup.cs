@@ -24,7 +24,10 @@ namespace CursoMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //adiciona controladores e views
             services.AddControllersWithViews();
+
+            //adicionar context para ter acesso a base de dados
             services.AddDbContext<Context>();
         }
 

@@ -13,7 +13,5 @@ namespace CursoMVC.Models
         [Display(Name = "Descrição")]
         [Required(ErrorMessage = "Descrição deve estar preenchida!!!")]
         public string Descricao { get; set; }
-
-        public List<Produto> Produtos { get; set; }
     }
 }
